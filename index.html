@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noah Construction London</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="header-inner">
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#services">Services</a>
+      <a href="#interior">Interior</a>
+      <a href="#exterior">Exterior</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-contact">
+      📞 <a href="tel:+447943672732" class="header-phone">+44 7943 672732</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="hero" class="hero">
+  <img src="images/logo.png" class="hero-logo" />
+  <h1 class="typing"></h1>
+  <p class="hero-tagline">Professional Building • Renovation • Roofing • Specialists</p>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="fade-in">
+  <h2>Our Services</h2>
+
+  <div class="services-grid">
+
+    <div class="service-card">
+      <img src="images/inter.jpg" />
+      <h3>Interior Renovations</h3>
+      <p>Full refurbishments, carpentry, flooring, painting, and more.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="images/exte.jpg" />
+      <h3>Exterior Renovations</h3>
+      <p>Pointing, brickwork, rendering, repairs and finishing.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="images/kith.jpg" />
+      <h3>Kitchen Fitting</h3>
+      <p>Complete installations, cabinets, tiling, countertops.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="images/roof.jpg" />
+      <h3>Roof Work</h3>
+      <p>Repairs, waterproofing, structural support and new roofs.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="images/mantan.jfif" />
+      <h3>Maintenance & Repairs</h3>
+      <p>Reliable ongoing home & property maintenance.</p>
+    </div>
+
+  </div>
+  <div class="divider"></div>
+</section>
+
+<!-- INTERIOR SECTION -->
+<section id="interior" class="fade-in">
+  <h2>Interior Work – Kitchen Set 1</h2>
+  <div class="grid gallery" data-group="kitchen1">
+    <img src="images/kitchen_1.jpeg" />
+    <img src="images/kitchen_2.jpeg" />
+    <img src="images/kitchen_3.jpeg" />
+    <img src="images/kitchen_4.jpeg" />
+    <img src="images/kitchen_5.jpeg" />
+    <img src="images/kitchen_6.jpeg" />
+    <img src="images/kitchen_7.jpeg" />
+    <img src="images/kitchen_8.jpeg" />
+    <img src="images/kitchen_9.jpeg" />
+    <img src="images/kitchen_10.jpeg" />
+  </div>
+</section>
+
+<section class="fade-in">
+  <h2>Interior Work – Interior Set</h2>
+  <div class="grid gallery" data-group="interior">
+    <img src="images/interior_1.jpeg" />
+    <img src="images/interior_2.jpeg" />
+    <img src="images/interior_3.jpeg" />
+    <img src="images/interior_4.jpeg" />
+    <img src="images/interior_5.jpeg" />
+    <img src="images/interior_6.jpeg" />
+    <img src="images/interior_7.jpeg" />
+  </div>
+</section>
+
+<section class="fade-in">
+  <h2>Interior Work – Kitchen Set 2</h2>
+  <div class="grid gallery" data-group="kitchen2">
+    <img src="images/kitchen_set2_1.jpeg" />
+    <img src="images/kitchen_set2_2.jpeg" />
+    <img src="images/kitchen_set2_3.jpeg" />
+  </div>
+</section>
+
+<!-- EXTERIOR SECTION -->
+<section id="exterior" class="fade-in">
+  <h2>Exterior Work – Stairs</h2>
+  <div class="grid gallery" data-group="stairs">
+    <img src="images/stairs_1.jpeg" />
+    <img src="images/stairs_2.jpeg" />
+    <img src="images/stairs_3.jpeg" />
+    <img src="images/stairs_4.jpeg" />
+    <img src="images/stairs_5.jpeg" />
+    <img src="images/stairs_7.jpeg" />
+    <img src="images/stairs_8.jpeg" />
+  </div>
+</section>
+
+<section class="fade-in">
+  <h2>Exterior Work – Roof</h2>
+  <div class="grid gallery" data-group="roof">
+    <img src="images/roof_1.jpeg" />
+    <img src="images/roof_2.jpeg" />
+    <img src="images/roof_3.jpeg" />
+    <img src="images/roof_4.jpeg" />
+  </div>
+</section>
+
+<section class="fade-in">
+  <h2>Exterior Work – Scaffolding</h2>
+  <div class="grid gallery" data-group="scal">
+    <img src="images/scal_1.jpeg" />
+    <img src="images/scal_2.jpeg" />
+    <img src="images/scal_3.jpeg" />
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact fade-in">
+  <h2>Contact Us</h2>
+  <div class="contact-box">
+    <p><strong>📍 London, UK</strong></p>
+    <p><strong>📞</strong> <a href="tel:+447943672732">+44 7943 672732</a></p>
+    <p><strong>📧</strong> <a href="mailto:info@noahconstructionlondon.co.uk">info@noahconstructionlondon.co.uk</a></p>
+    <p><strong>🕒</strong> Mon–Sat • 8am–7pm</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© <span id="year"></span> Noah Construction London — All Rights Reserved.</p>
+</footer>
+
+<!-- POPUP VIEWER -->
+<div id="popup" class="popup">
+  <span class="close" onclick="closePopup()">&times;</span>
+  <img id="popup-img" class="popup-content" />
+  <a class="prev" onclick="prevImg()">&#10094;</a>
+  <a class="next" onclick="nextImg()">&#10095;</a>
+</div>
+
+<!-- FLOATING BUTTONS -->
+<a class="call-btn" href="tel:+447943672732">📞 Call</a>
+<a class="whatsapp-btn" href="https://wa.me/447943672732">💬 WhatsApp</a>
+<a class="email-btn" href="mailto:info@noahconstructionlondon.co.uk">📧 Email</a>
+
+<script src="script.js"></script>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
