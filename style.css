@@ -66,8 +66,8 @@ nav a:hover {
 }
 
 .hero-logo {
-  width: 260px;
-  animation: pulse 3s infinite ease-in-out;
+  width: 360px;
+  animation: pulse 2s infinite ease-in-out;
 }
 
 @keyframes pulse {
